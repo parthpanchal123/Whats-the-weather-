@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Weather App </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- Correct Url : https://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=5dfa781872e3b3032c1a42b44f92b306 -->
+
+
+        <header>
+            <h1>Find the weather in any City !</h1>
+        </header>
+
+        <div class="container">
+            <div class="main">
+                <input id="city_name" type="text" placeholder="Enter city name !" required autofocus>
+                <button id="btn"> Get Weather !</button> <br>
+
+                <div class="info">
+                <p id="name">Place : </p>  
+                <p id="desc">Temperature (in C) :</p>  
+                <p id="temp">Description : </p>
+                 
+            </div>
+            <img id="icon">
+            </div>
+
+        </div>
+        
+        
+        <script type="text/javascript" src="Js/app.js"></script>
+    </body>
+</html>

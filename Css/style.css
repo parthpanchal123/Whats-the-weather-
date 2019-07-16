@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans SC', sans-serif;
+    
+}
+html {
+    background-color: #101010 ;
+}
+header h1 {
+    
+    text-align: center ;
+    padding-top: 20px ;
+    font-size: 40px ;
+    color: white ;
+}
+
+.container {
+    width: 50%;
+    height: 200px ;
+    border: 1px solid black ;
+    text-align: center ;
+    margin : 10% auto auto auto ;
+    background-color: white ;
+    border-radius: 10px ;
+    /* box-shadow: 10px 10px 8px #888888; */
+}
+
+.main {
+
+    margin: 50px auto auto auto ;
+
+}
+.main input[type="text"] {
+    padding-left: 10px ;
+    width: 50% ;
+    height : 30px ;
+    margin-right: 20px ;
+    margin-bottom: 20px ;
+    outline: none ;
+    border-radius: 5px ;
+    
+}
+.main input[type="text"]:focus {
+
+    outline: 1px solid black ;
+    transition: outine 0.5s ;
+}
+
+.main button {
+
+    width: auto ;
+    height: 32px ;
+    padding: 5px ;
+
+}
+.main button:hover {
+
+    border: 1px solid black ;
+    background-color: black ;
+    color: white ;
+    transition : color 0.5s ;
+    box-shadow: 10px 5px 20px #888888;
+}
+
+.main .info {
+
+    visibility: hidden ;
+    width: 100% ;
+    text-align: left ;
+    float: left;
+    padding: 10px ;
+
+    
+}
+
+.main.info p {
+
+    width: 70% ;
+}
+
+ #icon {
+
+    visibility: hidden ;
+    outline: white ;
+    margin-top: -90px ;
+    margin-left: 70px;
+    margin-right: 20px ;
+    float: right; 
+    width: 100px ;
+    height: 100px;
+    
+
+}
+
+#icon:hover {
+
+
+    transform: scale(1.3);
+    transition: 0.5s ;
+      
+}
