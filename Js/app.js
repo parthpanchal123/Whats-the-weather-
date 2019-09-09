@@ -7,27 +7,6 @@ let url ;
 
  btn.addEventListener("click",get_weather);
 
-// // Open a new connection, using the GET request on the URL endpoint
-
-
-// 
-//     request.open('GET',`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=5dfa781872e3b3032c1a42b44f92b306`,true);
-    
-
-//     request.onreadystatechange = function() {
-
-//         console.log("sdd");
-
-//         request.send();
-//            // Typical action to be performed when the document is ready:
-           
-                      
-        
- 
-// }
-// }
-// Send request
-
 function get_weather() {
 
 
@@ -72,7 +51,7 @@ function get_weather() {
     }
 };
 
-url = `https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=5dfa781872e3b3032c1a42b44f92b306` ;
+url = `https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=YOUR_APP_KEY` ;
 request.open("GET",url, true);
 request.send();
 
